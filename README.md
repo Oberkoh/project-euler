@@ -13,6 +13,11 @@ Run either file
 Run it like any python program from CLI  
 `python [filename.py]`
 
+## Contribute
+TODO: complete details on how to contribute.
+Open source and available to encourage 
+new programmers to solve the challenge
+
 ## Support
 
 - Tutorials: https://www.learnpython.org/
