@@ -14,9 +14,10 @@ Run it like any python program from CLI
 `python [filename.py]`
 
 ## Contribute
-TODO: complete details on how to contribute.
-Open source and available to encourage 
-new programmers to solve the challenge
+TODO: complete details on how to contribute.  
+This project is open source and available to  
+encourage new programmers to solve the challenge.  
+We'll be happy to have your contributions.  
 
 ## Support
 
