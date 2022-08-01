@@ -24,9 +24,4 @@ while not palindrome and first > 99:
             print(f"{first * second} = {first} x {second}")
             palindrome = True
             break
-            # print(first)
         second -= 1
-        # print(f"{first} x {second}")
-    
-
-# TODO: Make it work well
