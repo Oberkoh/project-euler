@@ -6,13 +6,27 @@ The largest palindrome made from the product of two 2-digit numbers is 9009 = 91
 Find the largest palindrome made from the product of two 3-digit numbers.
 """
 
-largest = 999
-while largest:
-    product = 999 * largest
-    palindrome = str(product)
-    if palindrome == palindrome[::-1]:
-        print(f"999 * {largest}")
+first = 999
+second = 999
+palindrome = False
+
+while not palindrome and first > 99:
+    product = str(first * second)
+    if product == product[::-1]:
+        print(f"{first * second} = {first} x {second}")
+        palindrome = True
         break
-    largest -= 1 
+    first -=1
+    second = first
+    while not palindrome and second > 900:
+        product = str(first * second)
+        if product == product[::-1]:
+            print(f"{first * second} = {first} x {second}")
+            palindrome = True
+            break
+            # print(first)
+        second -= 1
+        # print(f"{first} x {second}")
+    
 
 # TODO: Make it work well
